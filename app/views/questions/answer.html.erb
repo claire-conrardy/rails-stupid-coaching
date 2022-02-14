@@ -1,0 +1,19 @@
+<%# <h1>Hello</h1> %>
+<div class="question">
+  <%= @question %>
+  <br>
+  <p><em>- You</em></p>
+</div>
+
+<br>
+
+<div class="answer">
+  <strong><%= @answer %></strong>
+  <br>
+  <p><em>- Your coach</em></p>
+</div>
+<br>
+
+<div class="link">
+  <%= link_to "Ask another question", ask_path %>
+</div>
